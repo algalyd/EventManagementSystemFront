@@ -1,0 +1,16 @@
+
+.text-center-bold-heading {
+    @apply text-center font-bold text-3xl mb-4;
+}
+
+.alert-container {
+    @apply flex items-center justify-between p-4 mb-3 text-sm text-blue-700 border border-blue-400 rounded-md bg-blue-100 dark:bg-gray-900 dark:text-blue-300 dark:border-blue-700;
+}
+
+.icon-svg {
+    @apply flex-shrink-0 inline w-5 h-5 me-3;
+}
+
+.delete-notification-btn {
+    @apply float-right flex items-center justify-center w-5 h-5 bg-red-500 hover:bg-red-700 text-white text-xl font-bold rounded-full overflow-hidden cursor-pointer;
+}

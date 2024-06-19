@@ -1,0 +1,69 @@
+.full-container-request {
+    @apply w-full h-full;
+}
+
+.search-container-request {
+    @apply max-w-lg mx-auto mb-2;
+}
+
+.label-request {
+    @apply mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white;
+}
+
+.relative-container-request {
+    @apply relative;
+}
+
+.icon-container-request {
+    @apply absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none;
+}
+
+.icon-request {
+    @apply w-4 h-4 text-gray-500 dark:text-gray-400;
+}
+
+.search-options-container-request {
+    @apply w-full h-auto my-4 flex flex-row items-center justify-center;
+}
+
+.header-container-request {
+    @apply w-full h-auto p-2 flex justify-between items-center;
+}
+
+.view-events-container-request {
+    @apply w-3/5 flex flex-row items-center justify-start;
+}
+
+.view-events-header-request {
+    @apply mr-2 font-bold;
+}
+
+.view-options-container-request {
+    @apply w-auto flex flex-row items-center justify-center;
+}
+
+.delete-button-request {
+    @apply p-2 bg-red-500 hover:bg-red-700 text-white rounded-md float-right my-2 mr-2 cursor-pointer;
+}
+
+
+.pending-status-container-request {
+    @apply w-full h-auto p-2 flex flex-row;
+}
+
+.accept-button-request {
+    @apply p-2 bg-green-500 hover:bg-green-700 text-white rounded-md float-right my-2 mr-2 cursor-pointer;
+}
+
+.decline-button-request {
+    @apply p-2 bg-red-500 hover:bg-red-700 text-white rounded-md float-right my-2 mr-2 cursor-pointer;
+}
+
+
+
+
+
+
+
+
+

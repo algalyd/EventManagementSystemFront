@@ -1,0 +1,96 @@
+
+.full-container-Events {
+    @apply w-full h-full;
+}
+
+.search-event-button {
+    @apply text-white absolute right-2.5 bottom-2.5 bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
+}
+
+.centered-container {
+    @apply max-w-lg mx-auto mb-2;
+}
+
+.search-label {
+    @apply mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white;
+}
+
+.relative-container {
+    @apply relative;
+}
+
+
+.icon-events-container {
+    @apply absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none;
+}
+
+.icon-events {
+    @apply w-4 h-4 text-gray-500 dark:text-gray-400;
+}
+
+.search-input {
+    @apply block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-primary-light focus:border-primary-light dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-light dark:focus:border-primary-light;
+}
+
+.flex-container {
+    @apply w-full h-auto my-4 flex flex-row items-center justify-center;
+}
+
+.search-by-heading {
+    @apply mr-2;
+}
+
+
+.search-options-container {
+    @apply w-2/6 flex flex-row items-center justify-center;
+}
+
+
+.option {
+    @apply mr-1 text-center flex justify-center items-center w-full max-w-xs p-2 px-4 cursor-pointer text-gray-500;
+}
+
+.add-event-button {
+    @apply p-2 bg-yellow-700 hover:bg-yellow-500 text-white rounded-md float-right my-2 mr-2 cursor-pointer;
+}
+
+.option-active {
+    @apply bg-blue-500 text-white;
+}
+
+
+.option-inactive {
+    @apply bg-white;
+}
+
+.all-option{
+    @apply rounded-full shadow-sm border dark:text-gray-400 dark:bg-gray-800;
+}
+
+.flex-event-container {
+    @apply w-full h-auto p-2 flex justify-between items-center;
+}
+
+.flex-row-start-events {
+    @apply w-3/5 flex flex-row items-center justify-start;
+}
+
+.heading-view-events {
+    @apply mr-2 font-bold text-lg text-black border-b-2 border-gray-300 pb-1;
+}
+
+.delete-event-button {
+    @apply p-2 bg-red-500 hover:bg-red-700 text-white rounded-md float-right my-2 mr-2 cursor-pointer;
+}
+
+.flex-start-container-event {
+    @apply w-full h-auto flex items-start justify-start;
+}
+
+.send-invitation-button {
+    @apply ml-2 p-2 bg-yellow-700 hover:bg-yellow-500 text-white rounded-md float-right my-2 mr-2 cursor-pointer;
+}
+
+.modal-content-container {
+    @apply w-full h-full flex items-center self-center justify-center;
+}

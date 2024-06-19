@@ -1,0 +1,37 @@
+
+
+.invitation-container {
+    @apply w-1/3 h-2/5 border-2 border-blue-300 self-center p-6 flex flex-col items-center justify-around bg-white rounded-lg shadow-lg;
+}
+
+.content-invitation-container {
+    @apply w-full h-3/5 flex justify-center items-center flex-col;
+}
+
+.invitation-title {
+    @apply font-bold text-gray-900 text-xl mb-4 p-2 bg-blue-100 rounded-lg shadow-md;
+}
+
+.user-selection-container {
+    @apply w-full h-2/5 flex border border-gray-200 rounded items-center flex-wrap p-4 bg-gray-50 shadow-sm gap-2;
+}
+
+.user-badge {
+    @apply w-auto h-1/2 p-1 m-1 overflow-hidden flex items-center justify-center bg-blue-700 rounded-full;
+}
+
+.remove-user-icon {
+    @apply hover:cursor-pointer ml-1 flex items-center justify-center overflow-hidden text-blue-700 text-lg font-bold w-[15px] h-[15px] bg-white rounded-full;
+}
+
+.button-invitation-container {
+    @apply w-full h-2/5 flex justify-around items-center;
+}
+
+.send-invitation-button {
+    @apply p-2 w-2/5 bg-primary-dark hover:bg-primary-light text-white rounded-md float-right cursor-pointer;
+}
+
+.cancel-invitation-button {
+    @apply p-2 w-2/5 bg-blue-900 hover:bg-blue-500 text-white rounded-md float-right cursor-pointer;
+}

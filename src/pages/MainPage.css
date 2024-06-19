@@ -1,0 +1,43 @@
+.main-page-container {
+    @apply w-screen h-full flex-col;
+}
+
+.main-page-banner {
+    @apply w-full h-60 flex flex-col justify-center items-center bg-hero-bg bg-center bg-no-repeat bg-cover backdrop-blur-md;
+}
+
+.main-page-overlay-container {
+    @apply w-full h-full flex flex-col justify-around items-center bg-black opacity-65;
+}
+
+.main-page-content-container {
+    @apply w-10/12 h-40 mb-12 flex flex-col justify-center items-center text-white;
+}
+
+.main-page-title {
+    @apply font-bold text-3xl;
+}
+
+.main-page-text-center {
+    @apply text-center mt-4;
+}
+
+.main-page-section {
+    @apply w-full h-1/2 flex flex-col justify-center items-center;
+}
+
+.main-page-search-container {
+    @apply absolute bottom-[62%] w-10/12 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700;
+}
+
+.main-page-search-input {
+    @apply mr-2 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full pl-4 pr-10 py-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 shadow-md;
+}
+
+.main-page-search-button {
+    @apply text-white bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-700 hover:to-blue-900 focus:ring-4 focus:ring-blue-300 font-medium rounded-full px-8 py-3 shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out;
+}
+
+.main-page-events-container {
+    @apply w-10/12 h-auto mt-60 mb-8 flex justify-center items-center flex-wrap;
+}

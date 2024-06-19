@@ -1,0 +1,97 @@
+
+
+
+
+
+.link-dashboard {
+    @apply flex ms-2 md:me-24;
+}
+
+.icon-dashboard {
+    @apply text-[40px] text-blue-500 transition-transform duration-300 ease-in-out;
+}
+
+.icon-dashboard:hover {
+    @apply transform scale-125;
+}
+
+.navigation-bar-dashboard {
+    @apply fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700;
+}
+
+.container-dashboard {
+    @apply px-3 py-3 lg:px-5 lg:pl-3;
+}
+
+.flex-between-dashboard {
+    @apply flex items-center justify-between;
+}
+
+.flex-start-dashboard {
+    @apply flex items-center justify-start rtl:justify-end;
+}
+
+.button-dashboard {
+    @apply inline-flex items-center p-2 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600;
+}
+
+.title-dashboard {
+    @apply self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white;
+}
+
+.flex-center-dashboard {
+    @apply flex items-center;
+}
+
+.flex-center-margin-dashboard {
+    @apply flex items-center ms-3;
+}
+
+
+.avatar-dashboard {
+    @apply text-white font-bold ml-3 w-[40px] h-[40px] rounded-full bg-black flex justify-center items-center transition-transform duration-300 ease-in-out;
+}
+
+.avatar-dashboard:hover {
+    @apply transform scale-125;
+}
+
+.sidebar-dashboard {
+    @apply fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700;
+}
+
+.content-container-dashboard {
+    @apply h-full px-3 pb-4 overflow-y-auto bg-white dark:bg-gray-800;
+}
+
+.list-dashboard {
+    @apply space-y-2 font-medium;
+}
+
+.menu-item-dashboard {
+    @apply flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700;
+}
+
+.icon-side-dashboard {
+    @apply flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white;
+}
+
+.text-invitations-dashboard {
+    @apply flex-1 ms-3 whitespace-nowrap;
+}
+
+.text-invitations-active-dashboard {
+    @apply text-yellow-500 font-bold text-lg;
+}
+
+.notification-badge-dashboard {
+    @apply inline-flex items-center justify-center w-3 h-3 p-3 ms-3 text-sm font-medium text-blue-800 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 overflow-hidden;
+}
+
+.main-content-dashboard {
+    @apply p-4 sm:ml-64;
+}
+
+.card-dashboard {
+    @apply p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 mt-14;
+}
